@@ -174,12 +174,6 @@
     <Compile Include="VirtualFolder\Results\VirtualFolderVolumeStatusResult.cs" />
     <Compile Include="VirtualFolder\VirtualFolderRequest.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Synology\Synology.csproj">
-      <Project>{ba9cc12f-0589-4002-ac66-bf28c9a854b2}</Project>
-      <Name>Synology</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
